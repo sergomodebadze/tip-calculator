@@ -1,0 +1,81 @@
+.conteinerr {
+    background: #00474B;
+    border-radius: 15px;
+    padding: 40px;
+}
+.numbers {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    text-align: right;
+    letter-spacing: -1px;
+    color: #26C2AE;
+}
+.text {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.person {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #7F9D9F;
+}
+.firstCounter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.SecondCounter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.buttonDiv {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    background: #26C2AE;
+    border-radius: 5px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #00474B;
+    width: 100%;
+    border: none;
+    width: 333px;
+    height: 48px;
+    transition: .2s ease;
+}
+.button:hover {
+    transition: .2s ease;
+    background: #9FE8DF;
+}
+
+@media only screen and (max-width: 390px) {
+    .conteinerr {
+        padding: 24px;
+    }
+    .buttonDiv {
+        margin-top: 33px;
+    }
+    .SecondCounter {
+        margin-top: 21px;
+    }
+}
