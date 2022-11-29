@@ -68,7 +68,7 @@
     background: #9FE8DF;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 412px) {
     .conteinerr {
         padding: 24px;
     }

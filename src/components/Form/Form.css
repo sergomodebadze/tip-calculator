@@ -58,6 +58,7 @@
     line-height: 36px;
     text-align: right;
     color: #00474B;
+    outline: none;
 }
 .buttonDiv {
     display: grid;
@@ -100,7 +101,7 @@
 }
 
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 412px) {
     .conteiner {
         padding: 20px;
     }
